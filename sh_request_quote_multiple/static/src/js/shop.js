@@ -16,7 +16,7 @@ odoo.define('sh_request_quote_multiple.website_sale', function (require) {
 					if(data['not_allowed']==true){
 						return window.location = '/shop/cart?warning=Quotation Limit Exceed for Today!';
 					}else{
-						return window.location = '/shop/cart?message=Your RFQ submitted successfully!';
+						return window.location = '/shop/cart?message=Your RFQ1 submitted successfully!';
 					}
 	          	});
 			});
